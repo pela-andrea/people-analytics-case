@@ -1,32 +1,32 @@
 nome_coluna,nome_amigavel,tipo_dado,percentual_nulo,observacoes
-employee_id,ID do Funcionário,object,0.0,
+employee_id,ID do Colaborador,object,0.0,
 job_title,Cargo,object,0.0,
 department,Departamento,object,0.0,
 location,Localização,object,0.0,
 salary,Salário,float64,0.0,Valor contínuo em reais
-hire_date,Data de Admissão,datetime64[ns],0.0,Convertido para datetime
-termination_date,Data de Demissão,datetime64[ns],79.95,Nulos coerentes colaborador ativo
+hire_date,Data de Admissão,object,0.0,Convertido para datetime
+termination_date,Data de Demissão,object,79.95,Nulos coerentes colaborador ativo
 is_active,Está Ativo,bool,0.0,Booleano - indica se está ativo na empresa
 absence_days,Dias de Falta,int64,0.0,Faltas injustificadas e justificadas
 sick_days,Dias de Licença Médica,int64,0.0,
-vacation_days_taken,Dias de Férias,int64,0.0,
-bank_hours,Horas no Banco,int64,0.0,Pode conter valores negativos (uso ou dívida)
+vacation_days_taken,Dias de Férias Usufruídos,int64,0.0,
+bank_hours,Banco de Horas,int64,0.0,Pode conter valores negativos (uso ou dívida)
 overtime_hours,Horas Extras,int64,0.0,Horas extras acumuladas
-tardiness_count,Ocorrências de Atraso,int64,0.0,Contagem de atrasos registrados
+tardiness_count,Quantidade de Atrasos,int64,0.0,Contagem de atrasos registrados
 gender,Gênero,object,0.0,"Categoria: Male, Female, Other"
 marital_status,Estado Civil,object,0.0,Categoria: estado civil do colaborador
-number_of_dependents,Nº de Dependentes,int64,0.0,Número inteiro
-education_level,Nível Educacional,object,0.0,Categoria: escolaridade
-performance_rating,Nota de Performance,int64,0.0,Nota de 1 a 5
-bonus_percentage,Bônus (%),float64,0.0,Percentual de bônus - contínuo
+number_of_dependents,Número de Dependentes,int64,0.0,Número inteiro
+education_level,Nível de Escolaridade,object,0.0,Categoria: escolaridade
+performance_rating,Avaliação de Desempenho,int64,0.0,Nota de 1 a 5
+bonus_percentage,Percentual de Bônus,float64,0.0,Percentual de bônus - contínuo
 shift,Turno,object,0.0,Turno de trabalho
 contract_type,Tipo de Contrato,object,0.0,"Tipo contratual: Permanente, Temporário"
 cost_center,Centro de Custo,object,0.0,Código de centro de custo
-compliance_status,Compliance,object,0.0,Status de conformidade
+compliance_status,Status de Conformidade,object,0.0,Status de conformidade
 health_plan,Plano de Saúde,object,0.0,Plano de saúde contratado
-email,Email Corporativo,object,0.0,Formato padrão de e-mail
+email,Email,object,0.0,Formato padrão de e-mail
 tenure_years,Tempo de Empresa (anos),float64,0.0,Anos de empresa (float)
 probation_completed,Período de Experiência Concluído,bool,0.0,Booleano - indica se finalizou período de experiência
 manager_id,ID do Gestor,object,0.0,ID do gestor (Chave Gestor)
-last_promotion_date,Data da Última Promoção,datetime64[ns],51.66,Nulos indicam sem promoção registrada
-last_training_date,Data do Último Treinamento,datetime64[ns],29.78,Nulos indicam ausência de treinamentos recentes
+last_promotion_date,Data da Última Promoção,object,51.66,Nulos indicam sem promoção registrada
+last_training_date,Data do Último Treinamento,object,29.78,Nulos indicam ausência de treinamentos recentes
