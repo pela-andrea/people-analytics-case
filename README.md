@@ -48,13 +48,13 @@
 Este case visa avaliar suas habilidades técnicas com foco em quatro aspectos:
 </p>
     <li> 
-    <a href=''> Documentação </a>: balblalba
+    <a href='https://github.com/pela-andrea/people-analytics-case/blob/main/docs/documentacao.md'> Documentação </a>
     </li>
     <li> 
-    <a href=''> Versionamento de Código </a>: balblalba
+    <a href='vers'> Versionamento de Código </a>
     </li>
     <li>
-    <a href=''> Análise de Dados </a>: scrips
+    <a href='https://github.com/pela-andrea/people-analytics-case/blob/main/scripts/03_analise_de_dados.ipynb'> Análise de Dados </a>
     </li>
     <li>
     <a href='https://app.powerbi.com/view?r=eyJrIjoiOWM2MzI1YmMtZmQ4Ny00NGY4LWIwOGQtMzM4ZDI4ZTY1MDIzIiwidCI6ImNlMzdmYjc4LWE2OTUtNDNjOS05ZTkwLTFmNzkzYWIwOTQ3MyJ9'> Storytelling/ Visualização </a>: Link para o dashboard
