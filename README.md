@@ -7,9 +7,29 @@
     <li> <a href='info'> Informações Gerais </a>
         <ul>
             <li> <a href='#objetivo'> Objetivo </a> </li>
-            <li> <a href='#instrucoes'> Instruções </a> </li>         
+            <li> <a href='#instrucoes'> Instruções </a> </li>
+</ul>
+</ul>
+<hr>
+<ul>
+    <li> 
+        <a href='dev'>Desenvolvimento </a>
+        <ul>
             <li> <a href='#estrutura'> Estrutura Repositório </a> </li>
             <li> <a href='#vers'> Versionamento </a> </li>
+            <li> <a href='#execucao'> Execução</a> </li>
+            <li> <a href='#execucao'> Tools</a> </li>
+        </ul>
+</ul>
+<ul>
+    <li> 
+        <a href='dev'>Análise</a>
+        <ul>
+            <li> <a href='#estrutura'> Estrutura Repositório </a> </li>
+            <li> <a href='#vers'> Versionamento </a> </li>
+            <li> <a href='#execucao'> Execução</a> </li>
+            <li> <a href='#execucao'> Tools</a> </li>
+        </ul>
 </ul>
 
 <hr>
@@ -71,7 +91,9 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
 
 <hr>
 </ul>
-<h2 id='#estrutura'>Estrutura do Projeto</h2>
+<h2 id='dev'>Desenvolvimento </h2>
+
+<h3 id='#estrutura'>Estrutura do Projeto</h3>
 
 <ul>
   <li><strong><a href="data/">data/</a></strong>
@@ -137,9 +159,7 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
   <li><a href="INSTRUCOES.md">INSTRUCOES.md</a></li>
 </ul>
 <hr>
-<h2 id='#vers'>Versionamento</h2>
-<h2>Versionamento</h2>
-
+<h3 id='#vers'>Versionamento</h3>
 <ol>
   <li>
     <strong>Criação do Repositório no GitHub</strong>
@@ -185,13 +205,53 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
   </li>
 </ol>
 
+<h3 id='#execucao'>Como executar?</h3>
 
+<p>Siga os passos abaixo para rodar o projeto localmente:</p>
 
-## Ferramentas Utilizadas
+<ol>
+  <li>
+    <strong>Clone o repositório:</strong>
+    <pre><code>git clone https://github.com/pela-andrea/people-analytics-case.git
+cd people-analytics-case</code></pre>
+  </li>
 
-- Google Colab (Python / Pandas / Matplotlib / Seaborn)
-- Power BI
-- Git e GitHub
+  <li>
+    <strong>(Opcional) Crie um ambiente virtual:</strong>
+    <pre><code>python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows</code></pre>
+  </li>
+
+  <li>
+    <strong>Instale as dependências:</strong>
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+
+  <li>
+    <strong>Execute os notebooks na ordem:</strong>
+    <ul>
+      <li><code>01_exploracao_glossario.ipynb</code> – Exploração e criação do glossário</li>
+      <li><code>02_divisao_tabelas.ipynb</code> – Tratamento e separação das tabelas</li>
+      <li><code>03_analise_de_dados.ipynb</code> – Análises e geração de insights</li>
+    </ul>
+  </li>
+</ol>
+<hr>
+<h3 id='#tools'>Ferramentas utilizadas</h3>
+<ul>
+  <li><strong>Python</strong> (versão 3.10 ou superior)</li>
+  <ul>
+    <li>Pandas (v1.5+)</li>
+    <li>NumPy (v1.23+)</li>
+    <li>Matplotlib (v3.7+)</li>
+    <li>Seaborn (v0.12+)</li>
+  </ul>
+  <li><strong>Google Colab</strong> – ambiente utilizado para exploração, análise e visualização de dados</li>
+  <li><strong>Power BI</strong> – construção de dashboard final</li>
+  <li><strong>Git & GitHub</strong> – versionamento e controle de código-fonte</li>
+</ul>
+
 
 ## Autor
 
