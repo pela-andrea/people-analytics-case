@@ -19,7 +19,6 @@
             <li> <a href='#vers'> Versionamento </a> </li>
             <li> <a href='#notebooks'> Notebooks</a> </li>
             <li> <a href='#tabelas'> Tabelas</a> </li>
-            <li> <a href='#execucao'> Execução</a> </li>
             <li> <a href='#tools'> Ferramentas</a> </li>
         </ul>
 </ul>
@@ -405,41 +404,6 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
 
 <hr>
 
-<h2 id='execucao'>Como executar?</h2>
-
-<p>Siga os passos abaixo para rodar o projeto localmente:</p>
-
-<ol>
-  <li>
-    <strong>Clone o repositório:</strong>
-    <pre><code>git clone https://github.com/pela-andrea/people-analytics-case.git
-cd people-analytics-case</code></pre>
-  </li>
-
-  <li>
-    <strong>(Opcional) Crie um ambiente virtual:</strong>
-    <pre><code>python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows</code></pre>
-  </li>
-
-  <li>
-    <strong>Instale as dependências:</strong>
-    <pre><code>pip install -r requirements.txt</code></pre>
-  </li>
-
-  <li>
-    <strong>Execute os notebooks na ordem:</strong>
-    <ul>
-      <li><code>01_exploracao_glossario.ipynb</code> – Exploração e criação do glossário</li>
-      <li><code>02_divisao_tabelas.ipynb</code> – Tratamento e separação das tabelas</li>
-      <li><code>03_analise_de_dados.ipynb</code> – Análises e geração de insights</li>
-    </ul>
-  </li>
-</ol>
-
-<hr>
-
 <h2 id='tools'>Ferramentas utilizadas</h2>
 
 <ul>
@@ -459,36 +423,30 @@ venv\Scripts\activate     # Windows</code></pre>
 
 <h2 id='insights'>Insights</h2>
 <ul>
-  <li>
-    <strong>Distribuição por gênero e faixa salarial:</strong> 
-    análise da proporção de colaboradores por gênero e como os salários se distribuem entre esses grupos.
+  <p><strong>Distribuição perfil colaborador</strong></p>
+    <li>Com um total de 39k colaboradores ativos, existe uma distribuição homogenea entre genereos feminino e masculino. Porém uma minoria é representada pelo gênero "outro".</li>
+    <li>A grande maioria dos colaboradores (quase 50%) já foi casado, permanecendo com esse vínculo ou divorciado.</li>
+    <li>Em nível de escolaridade, a grande maioria possui diploma de graduação e a minoria possui nível Doutorado.</li>
     <br>
-    <img src="CAMINHO/DA/IMAGEM1.png" alt="Distribuição por gênero e salário" width="600">
-  </li>
-  <li>
-    <strong>Relação entre desempenho e promoções:</strong> 
-    explorada a média de tempo até promoção por faixa de avaliação de desempenho.
+    <p><strong>Relação entre desempenho, promoções e demissões:</strong> </p>
+    <li>O tempo médio até a promoção é de ~4,6 anos, com pouca diferença entre departamentos e faixas de desempenho.</li>
+    <li>Departamentos com mais promoções: RH, Operações e TI.</li>
+    <li>A performance média dos promovidos também não apresenta grandes variações entre áreas, sugerindo que promoções seguem um ciclo de tempo, não de performance.</li>
+    <li>A avaliação média de desempenho dos demitidos se manteve em torno de 3.0 (escala de 1 a 5), com pouca variação ao longo do tempo. Sugerindo que o motivo dos delisgamentos não estão relacionados com baixa performance</li>
     <br>
-    <img src="CAMINHO/DA/IMAGEM2.png" alt="Desempenho e promoções" width="600">
-  </li>
-  <li>
-    <strong>Atrasos por turno:</strong> 
-    comparado o número médio de atrasos por colaborador em diferentes turnos (manhã, tarde, noite).
+    <p><strong>Admissões e demissões ao longo do tempo:</strong> </p>
+    <li>As admissões se mantêm em um patamar elevado e constante até recentemente. </li>
+    <li>Já as demissões têm crescido continuamente, indicando uma possível tendência de aumento no turnover nos últimos anos.</li>
     <br>
-    <img src="CAMINHO/DA/IMAGEM3.png" alt="Atrasos por turno" width="600">
-  </li>
-  <li>
-    <strong>Rotatividade por departamento e gestor:</strong> 
-    medição da proporção de demissões por gestor e análise de saldo de admissões/demissões por área.
+    <p><strong>Rotatividade</strong> </p>
+    <li>Aproximadamente 20% da força de trabalho foi desligada, mas não há informação sobre o motivo (voluntário ou involuntário).</li>
+    <li>A taxa de rotatividade se mantém alta e estável ao longo do tempo, com leve variação entre faixas de tempo de casa.</li>
+    <li>Departamentos com maior saldo positivo de admissões: TI, RH e Operações.</li>
+    <li>Não foram encontrados casos de “troca intensa” (admissões ≅ demissões) nos departamentos, sugerindo crescimento ou estabilidade, e não reposição contínua. </li>
     <br>
-    <img src="CAMINHO/DA/IMAGEM4.png" alt="Rotatividade por gestor e departamento" width="600">
-  </li>
-  <li>
-    <strong>Correlação entre horas extras e desempenho:</strong> 
-    identificação visual e estatística da relação entre esforço adicional e avaliação.
-    <br>
-    <img src="CAMINHO/DA/IMAGEM5.png" alt="Horas extras vs desempenho" width="600">
-  </li>
+<p><strong>Correlação entre horas extras e desempenho:</strong> </p>
+    <li>Não há correlação relevante entre horas extras e avaliação de desempenho (correlação ≈ 0.007).
+    <li>Isso mostra que trabalhar mais horas não está associado a melhor performance, ao menos nos critérios avaliados.</li>
 </ul>
 
 <h2 id='dash'>Dashboard</h2>
