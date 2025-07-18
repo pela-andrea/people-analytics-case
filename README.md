@@ -210,6 +210,67 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
 </ol>
 <h2 id='notebooks'>Notebooks</h2>
 
+<h2> Notebook 01 - Exploração e Glossário</h2>
+<p><a href="https://github.com/pela-andrea/people-analytics-case/blob/docs/readme-documentacao/scripts/01_exploracao_glossario.ipynb" target="_blank">
+  Acesse o notebook no GitHub
+</a></p>
+
+<p>Este notebook contempla as etapas iniciais de exploração da base de dados. São abordados:</p>
+
+<ul>
+  <li>Leitura da base original</li>
+  <li>Entendimento e descrição das colunas</li>
+  <li>Identificação e tratamento de dados inconsistentes ou faltantes</li>
+  <li>Inferência e conversão de tipos de dados</li>
+  <li>Criação do glossário contendo:</li>
+  <ul>
+    <li>Nome da coluna original</li>
+    <li>Nome amigável</li>
+    <li>Tipo de dado</li>
+    <li>Observações relevantes</li>
+  </ul>
+  <li>Salvamento do glossário em formato <code>.csv</code> ou <code>.md</code></li>
+</ul>
+
+<h2>Notebook 02 - Divisão de Tabelas</h2>
+<p>
+  <a href="https://github.com/pela-andrea/people-analytics-case/blob/docs/readme-documentacao/scripts/02_divisao_tabelas.ipynb" target="_blank">
+    Acesse o notebook no GitHub
+  </a>
+</p>
+
+<p>
+  Neste notebook, daremos continuidade ao processo de preparação dos dados para análise, realizando a classificação e segmentação da base original em múltiplas tabelas organizadas segundo critérios específicos. O objetivo é estruturar os dados de forma mais eficiente para análises futuras e uso no Power BI, aplicando conceitos de modelagem como fato e dimensão, quando pertinente.
+</p>
+
+<p>As principais etapas deste notebook incluem:</p>
+<ul>
+  <li>Aplicar classificações relevantes para separar as informações em grupos lógicos</li>
+  <li>Dividir a base de dados original em diversas tabelas e nomear os arquivos gerados seguindo o padrão <code>tabela_nome.csv</code>, garantindo organização</li>
+  <li>Salvar as tabelas finais para utilização no Power BI</li>
+</ul>
+
+<h2>Notebook 03 - Análise de Dados</h2>
+<p>
+  <a href="https://github.com/pela-andrea/people-analytics-case/blob/docs/readme-documentacao/scripts/03_analise_de_dados.ipynb" target="_blank">
+    Acesse o notebook no GitHub
+  </a>
+</p>
+
+<p>
+  Neste notebook daremos início à análise de dados para explorar a base de dados de RH, buscando identificar padrões, inconsistências e potenciais insights que possam apoiar a tomada de decisão.
+</p>
+
+<p>Principais abordagens exploradas:</p>
+<ul>
+  <li>Análise de rotatividade (admissões, demissões e saldo)</li>
+  <li>Distribuição de salário e bônus</li>
+  <li>Correlação entre desempenho e atrasos, faltas ou promoções</li>
+  <li>Comparações por departamento, gestor e turno</li>
+  <li>Criação de visualizações para apoiar os achados</li>
+</ul>
+
+
 <h2 id='tabelas'>Tabelas</h2>
 <h>
 <ul>
