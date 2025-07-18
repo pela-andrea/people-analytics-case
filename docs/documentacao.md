@@ -24,6 +24,7 @@
 
 - `powerbi/`: dashboard final desenvolvido no Power BI
   - [Dashboard RH - Power BI](https://app.powerbi.com/view?r=eyJrIjoiOWM2MzI1YmMtZmQ4Ny00NGY4LWIwOGQtMzM4ZDI4ZTY1MDIzIiwidCI6ImNlMzdmYjc4LWE2OTUtNDNjOS05ZTkwLTFmNzkzYWIwOTQ3MyJ9)
+  - [Acesse a documentação completa aqui](https://pela-andrea.notion.site/Case-People-Analytics-23433c70ce978084b664d2388dd9c257)
 
 - `README.md`: resumo do projeto, instruções e tecnologias
 - `INSTRUCOES.md`: instruções do projeto 
