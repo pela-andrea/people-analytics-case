@@ -497,20 +497,24 @@ venv\Scripts\activate     # Windows</code></pre>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
   <div style="flex: 1 1 45%;">
+      <p style="text-align: center;">Perfil do Colaborador</p>
     <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg1.png" alt="Dashboard 1" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Perfil do Colaborador</p>
+    
   </div>
   <div style="flex: 1 1 45%;">
+      <p style="text-align: center;">Estrutura Organizacional</p>
     <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg2.png" alt="Dashboard 2" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Estrutura Organizacional</p>
+    
   </div>
   <div style="flex: 1 1 45%;">
+      <p style="text-align: center;">Jornada e Remuneração</p>
     <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg3.png" alt="Dashboard 3" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Jornada e Remuneração</p>
+    
   </div>
   <div style="flex: 1 1 45%;">
+       <p style="text-align: center;">Desempenho</p>
     <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg4.png" alt="Dashboard 4" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Desempenho</p>
+   
   </div>
 </div>
 
@@ -546,8 +550,4 @@ Documentação</a>
   <li>
     <a href="https://www.linkedin.com/in/pela-andrea" target="_blank">🔗 LinkedIn</a>
   </li>
-  <li>
-    <a href="https://seu-portfolio.com" target="_blank">🌐 Portfólio</a>
-  </li>
-</ul>
 
