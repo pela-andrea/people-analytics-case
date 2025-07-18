@@ -550,8 +550,4 @@ Documentação</a>
   <li>
     <a href="https://www.linkedin.com/in/pela-andrea" target="_blank">🔗 LinkedIn</a>
   </li>
-  <li>
-    <a href="https://seu-portfolio.com" target="_blank">🌐 Portfólio</a>
-  </li>
-</ul>
 
