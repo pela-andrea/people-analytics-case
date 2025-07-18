@@ -18,17 +18,17 @@
             <li> <a href='#estrutura'> Estrutura Repositório </a> </li>
             <li> <a href='#vers'> Versionamento </a> </li>
             <li> <a href='#execucao'> Execução</a> </li>
-            <li> <a href='#execucao'> Tools</a> </li>
+            <li> <a href='#tools'> Ferramentas</a> </li>
         </ul>
 </ul>
 <ul>
     <li> 
-        <a href='dev'>Análise</a>
+        <a href='analise'>Análise</a>
         <ul>
-            <li> <a href='#estrutura'> Estrutura Repositório </a> </li>
-            <li> <a href='#vers'> Versionamento </a> </li>
-            <li> <a href='#execucao'> Execução</a> </li>
-            <li> <a href='#execucao'> Tools</a> </li>
+            <li> <a href='#insights'> Principais Insights </a> </li>
+            <li> <a href='#dash'> Dashboard</a> </li>
+            <li> <a href='#doc'> Documentação</a> </li>
+            <li> <a href='#autor'> Autor</a> </li>
         </ul>
 </ul>
 
@@ -252,8 +252,90 @@ venv\Scripts\activate     # Windows</code></pre>
   <li><strong>Git & GitHub</strong> – versionamento e controle de código-fonte</li>
 </ul>
 
+<h3 id='analises'>Análises</h3>
 
-## Autor
+<h2 id='#insights'>Insights</h2>
+<ul>
+  <li>
+    <strong>Distribuição por gênero e faixa salarial:</strong> 
+    análise da proporção de colaboradores por gênero e como os salários se distribuem entre esses grupos.
+    <br>
+    <img src="CAMINHO/DA/IMAGEM1.png" alt="Distribuição por gênero e salário" width="600">
+  </li>
+  <li>
+    <strong>Relação entre desempenho e promoções:</strong> 
+    explorada a média de tempo até promoção por faixa de avaliação de desempenho.
+    <br>
+    <img src="CAMINHO/DA/IMAGEM2.png" alt="Desempenho e promoções" width="600">
+  </li>
+  <li>
+    <strong>Atrasos por turno:</strong> 
+    comparado o número médio de atrasos por colaborador em diferentes turnos (manhã, tarde, noite).
+    <br>
+    <img src="CAMINHO/DA/IMAGEM3.png" alt="Atrasos por turno" width="600">
+  </li>
+  <li>
+    <strong>Rotatividade por departamento e gestor:</strong> 
+    medição da proporção de demissões por gestor e análise de saldo de admissões/demissões por área.
+    <br>
+    <img src="CAMINHO/DA/IMAGEM4.png" alt="Rotatividade por gestor e departamento" width="600">
+  </li>
+  <li>
+    <strong>Correlação entre horas extras e desempenho:</strong> 
+    identificação visual e estatística da relação entre esforço adicional e avaliação.
+    <br>
+    <img src="CAMINHO/DA/IMAGEM5.png" alt="Horas extras vs desempenho" width="600">
+  </li>
+</ul>
 
-Andrea Pela  
-[LinkedIn](https://www.linkedin.com/in/pela-andrea/)  
+<h2 id='#dash'>Dashboard</h2>
+
+<p>Visualizações desenvolvidas no Power BI com base nos dados tratados. Abaixo, estão os principais painéis do dashboard:</p>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+  <div style="flex: 1 1 45%;">
+    <img src="caminho/para/imagem1.png" alt="Dashboard 1" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Título do Dashboard 1</p>
+  </div>
+  <div style="flex: 1 1 45%;">
+    <img src="caminho/para/imagem2.png" alt="Dashboard 2" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Título do Dashboard 2</p>
+  </div>
+  <div style="flex: 1 1 45%;">
+    <img src="caminho/para/imagem3.png" alt="Dashboard 3" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Título do Dashboard 3</p>
+  </div>
+  <div style="flex: 1 1 45%;">
+    <img src="caminho/para/imagem4.png" alt="Dashboard 4" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Título do Dashboard 4</p>
+  </div>
+</div>
+
+<p>🔗 Link para o arquivo do dashboard no Power BI: 
+<a href="https://github.com/seu-usuario/seu-repositorio/blob/main/powerbi/dashboard_rh.pbix" target="_blank">
+dashboard_rh.pbix</a>
+</p>
+
+<h2 id='#doc'>Documentação</h2>
+
+<p>Para mais detalhes técnicos sobre a estrutura do projeto, métodos utilizados, glossário e dicionário de dados, consulte o arquivo abaixo:</p>
+
+<ul>
+  <li>
+    <a href="https://github.com/seu-usuario/seu-repositorio/blob/main/documentacao.md" target="_blank">
+      <code>documentacao.md</code> – Documentação técnica completa
+    </a>
+  </li>
+</ul>
+<hr>
+<h2 id='#autor'>Autor</h2>
+<p>Este projeto foi desenvolvido por <strong>Andrea Pela</strong>.</p>
+<ul>
+  <li>
+    <a href="https://www.linkedin.com/in/pela-andrea" target="_blank">🔗 LinkedIn</a>
+  </li>
+  <li>
+    <a href="https://seu-portfolio.com" target="_blank">🌐 Portfólio</a>
+  </li>
+</ul>
+
