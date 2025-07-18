@@ -276,11 +276,10 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
 <ul>
     <li><a href='#glossario'>Glossário</a></li>
     <li><a href='#dcolab'>Tabela dColaborador</a></li>
-    <li><a href='#dcolab'>Tabela dColaborador</a></li>
-    <li><a href='#dcolab'>Tabela dColaborador</a></li>
-    <li><a href='#dcolab'>Tabela dColaborador</a></li>
-    <li><a href='#dcolab'>Tabela dColaborador</a></li>
-    <li><a href='#dcolab'>Tabela dColaborador</a></li>
+    <li><a href='#estr'>Tabela dEstrutura</a></li>
+    <li><a href='#ddesemp'>Tabela dDesemmpenho</a></li>
+    <li><a href='#fjorn'>Tabela fJornada_trabalho</a></li>
+
         
 </ul>
 <h2 id='glossario'>Glossário</h2>
@@ -352,7 +351,7 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
     
 </h>
 <h>
-<h2 id='dcolab'>Tabela dEstrutura</h2>
+<h2 id='estr'>Tabela dEstrutura</h2>
 <p>Reúne dados organizacionais relacionados à posição e vínculo do colaborador dentro da empresa.</p>
 
 <ul>
@@ -372,7 +371,7 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
     
 </h>
 <h>
-<h2 id='dcolab'>Tabela dDesempenho</h2>
+<h2 id='ddesemp'>Tabela dDesempenho</h2>
 <p>Contém informações sobre remuneração, benefícios e desempenho dos colaboradores.</p>
 
 <ul>
@@ -388,7 +387,7 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
 </ul>
 </h>
 <h>
-<h2 id='dcolab'>Tabela fJornada_trabalho</h2>
+<h2 id='fjorn'>Tabela fJornada_trabalho</h2>
 
 <p>Registra eventos temporais relacionados à jornada de trabalho dos colaboradores.</p>
 
@@ -406,7 +405,7 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
 
 <hr>
 
-<h3 id='execucao'>Como executar?</h3>
+<h2 id='execucao'>Como executar?</h2>
 
 <p>Siga os passos abaixo para rodar o projeto localmente:</p>
 
@@ -438,8 +437,11 @@ venv\Scripts\activate     # Windows</code></pre>
     </ul>
   </li>
 </ol>
+
 <hr>
-<h3 id='tools'>Ferramentas utilizadas</h3>
+
+<h2 id='tools'>Ferramentas utilizadas</h2>
+
 <ul>
   <li><strong>Python</strong> (versão 3.10 ou superior)</li>
   <ul>
@@ -453,7 +455,7 @@ venv\Scripts\activate     # Windows</code></pre>
   <li><strong>Git & GitHub</strong> – versionamento e controle de código-fonte</li>
 </ul>
 
-<h3 id='analises'>Análises</h3>
+<h2 id='analises'>Análises</h2>
 
 <h2 id='insights'>Insights</h2>
 <ul>
@@ -495,20 +497,20 @@ venv\Scripts\activate     # Windows</code></pre>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
   <div style="flex: 1 1 45%;">
-    <img src="caminho/para/imagem1.png" alt="Dashboard 1" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Título do Dashboard 1</p>
+    <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg1.png" alt="Dashboard 1" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Perfil do Colaborador</p>
   </div>
   <div style="flex: 1 1 45%;">
-    <img src="caminho/para/imagem2.png" alt="Dashboard 2" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Título do Dashboard 2</p>
+    <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg2.png" alt="Dashboard 2" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Estrutura Organizacional</p>
   </div>
   <div style="flex: 1 1 45%;">
-    <img src="caminho/para/imagem3.png" alt="Dashboard 3" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Título do Dashboard 3</p>
+    <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg3.png" alt="Dashboard 3" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Jornada e Remuneração</p>
   </div>
   <div style="flex: 1 1 45%;">
-    <img src="caminho/para/imagem4.png" alt="Dashboard 4" style="width: 100%; border: 1px solid #ccc;" />
-    <p style="text-align: center;">Título do Dashboard 4</p>
+    <img src="https://github.com/pela-andrea/people-analytics-case/blob/main/docs/Pg4.png" alt="Dashboard 4" style="width: 100%; border: 1px solid #ccc;" />
+    <p style="text-align: center;">Desempenho</p>
   </div>
 </div>
 
