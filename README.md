@@ -4,7 +4,7 @@
 
 <h3> Sumário </h3>
 <ul>
-    <li> <a href='info'> Informações Gerais </a>
+    <li> <a href='#info'> Informações Gerais </a>
         <ul>
             <li> <a href='#objetivo'> Objetivo </a> </li>
             <li> <a href='#instrucoes'> Instruções </a> </li>
@@ -512,10 +512,19 @@ venv\Scripts\activate     # Windows</code></pre>
   </div>
 </div>
 
-<p>🔗 Link para o arquivo do dashboard no Power BI: 
+<p>Link para o arquivo do dashboard no Power BI: 
 <a href="https://github.com/seu-usuario/seu-repositorio/blob/main/powerbi/dashboard_rh.pbix" target="_blank">
 dashboard_rh.pbix</a>
 </p>
+<p>Link para visualização do dashboard online: 
+<a href="https://app.powerbi.com/view?r=eyJrIjoiOWM2MzI1YmMtZmQ4Ny00NGY4LWIwOGQtMzM4ZDI4ZTY1MDIzIiwidCI6ImNlMzdmYjc4LWE2OTUtNDNjOS05ZTkwLTFmNzkzYWIwOTQ3MyJ9" target="_blank">
+dashboard_rh</a>
+</p>
+<p>Link para a documentação do dashboard no Power BI: 
+<a href="https://pela-andrea.notion.site/Case-People-Analytics-23433c70ce978084b664d2388dd9c257" target="_blank">
+Documentação</a>
+</p>
+
 
 <h2 id='doc'>Documentação</h2>
 
