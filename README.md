@@ -17,6 +17,8 @@
         <ul>
             <li> <a href='#estrutura'> Estrutura Repositório </a> </li>
             <li> <a href='#vers'> Versionamento </a> </li>
+            <li> <a href='#notebooks'> Notebooks</a> </li>
+            <li> <a href='#tabelas'> Tabelas</a> </li>
             <li> <a href='#execucao'> Execução</a> </li>
             <li> <a href='#tools'> Ferramentas</a> </li>
         </ul>
@@ -36,13 +38,13 @@
 
 <br>
 
-<h2 id='info'> Informações Gerais  </h2>
+<h3 id='info'> Informações Gerais  </h3>
 <p>
     Aqui estão as informações básicas para compreender melhor o escopo deste projeto.
 </p>
 
 <hr>
-<h3 id='objetivo'> Contexto </h3>
+<h2 id='objetivo'>Objetivo</h2>
 <p> 
 Este case visa avaliar suas habilidades técnicas com foco em quatro aspectos:
 </p>
@@ -59,6 +61,8 @@ Este case visa avaliar suas habilidades técnicas com foco em quatro aspectos:
     <a href='https://app.powerbi.com/view?r=eyJrIjoiOWM2MzI1YmMtZmQ4Ny00NGY4LWIwOGQtMzM4ZDI4ZTY1MDIzIiwidCI6ImNlMzdmYjc4LWE2OTUtNDNjOS05ZTkwLTFmNzkzYWIwOTQ3MyJ9'> Storytelling/ Visualização </a>: Link para o dashboard
     </li>
 <hr>
+<h2 id='intrucoes'> Instruções</h2>
+
 <p>
     Com base nesses aspectos, você precisará criar um repositório público no Github contendo todos os arquivos que serão necessários para a realização. Nesse repositório, é imprescindível que contenha o .readme com a estrutura dos arquivos. 
 </p>
@@ -93,7 +97,7 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
 </ul>
 <h2 id='dev'>Desenvolvimento </h2>
 
-<h3 id='#estrutura'>Estrutura do Projeto</h3>
+<h3 id='estrutura'>Estrutura do Projeto</h3>
 
 <ul>
   <li><strong><a href="data/">data/</a></strong>
@@ -159,7 +163,7 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
   <li><a href="INSTRUCOES.md">INSTRUCOES.md</a></li>
 </ul>
 <hr>
-<h3 id='#vers'>Versionamento</h3>
+<h3 id='vers'>Versionamento</h3>
 <ol>
   <li>
     <strong>Criação do Repositório no GitHub</strong>
@@ -204,8 +208,144 @@ Após criar seu repositório, você deverá pegar a base de dados que estamos di
     </ol>
   </li>
 </ol>
+<h2 id='notebooks'>Notebooks</h2>
 
-<h3 id='#execucao'>Como executar?</h3>
+<h2 id='tabelas'>Tabelas</h2>
+<h>
+<ul>
+    <li><a href='#glossario'>Glossário</a></li>
+    <li><a href='#dcolab'>Tabela dColaborador</a></li>
+    <li><a href='#dcolab'>Tabela dColaborador</a></li>
+    <li><a href='#dcolab'>Tabela dColaborador</a></li>
+    <li><a href='#dcolab'>Tabela dColaborador</a></li>
+    <li><a href='#dcolab'>Tabela dColaborador</a></li>
+    <li><a href='#dcolab'>Tabela dColaborador</a></li>
+        
+</ul>
+<h2 id='glossario'>Glossário</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th>Coluna Original</th>
+      <th>Coluna Corrigida</th>
+      <th>Tipo de Dado</th>
+      <th>Observações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>employee_id</td><td>ID do Colaborador</td><td>object</td><td>Identificação do colaborador. Ex: EMP_00001, ...</td></tr>
+    <tr><td>job_title</td><td>Cargo</td><td>object</td><td>Gerente de RH, Engenheiro de Dados, Desenvolvedor Python, etc.</td></tr>
+    <tr><td>department</td><td>Departamento</td><td>object</td><td>Financeiro, Marketing, Operações, RH, Jurídico, TI, Vendas</td></tr>
+    <tr><td>location</td><td>Localização</td><td>object</td><td>Salvador, BH, POA, Curitiba, SP, Fortaleza, RJ</td></tr>
+    <tr><td>salary</td><td>Salário</td><td>float64</td><td>Valor contínuo em reais</td></tr>
+    <tr><td>hire_date</td><td>Data de Admissão</td><td>datetime64[ns]</td><td>Convertido para datetime</td></tr>
+    <tr><td>termination_date</td><td>Data de Demissão</td><td>datetime64[ns]</td><td>---</td></tr>
+    <tr><td>is_active</td><td>Está Ativo</td><td>object</td><td>'Sim' indica ativo, 'Não' indica desligado</td></tr>
+    <tr><td>absence_days</td><td>Dias de Falta</td><td>int64</td><td>Faltas injustificadas e justificadas</td></tr>
+    <tr><td>sick_days</td><td>Dias de Licença Médica</td><td>int64</td><td>---</td></tr>
+    <tr><td>vacation_days_taken</td><td>Dias de Férias Usufruídos</td><td>int64</td><td>---</td></tr>
+    <tr><td>bank_hours</td><td>Banco de Horas</td><td>int64</td><td>Pode conter valores negativos (uso ou dívida)</td></tr>
+    <tr><td>overtime_hours</td><td>Horas Extras</td><td>int64</td><td>Horas extras acumuladas</td></tr>
+    <tr><td>tardiness_count</td><td>Quantidade de Atrasos</td><td>int64</td><td>Contagem de atrasos registrados</td></tr>
+    <tr><td>gender</td><td>Gênero</td><td>object</td><td>Feminino, Masculino, Outro</td></tr>
+    <tr><td>marital_status</td><td>Estado Civil</td><td>object</td><td>Viúvo(a), Casado(a), Divorciado(a), Solteiro(a)</td></tr>
+    <tr><td>number_of_dependents</td><td>Número de Dependentes</td><td>int64</td><td>Número inteiro</td></tr>
+    <tr><td>education_level</td><td>Nível de Escolaridade</td><td>object</td><td>Graduação, Mestrado, Ensino Médio, Doutorado</td></tr>
+    <tr><td>performance_rating</td><td>Avaliação de Desempenho</td><td>int64</td><td>Nota de 1 a 5</td></tr>
+    <tr><td>bonus_percentage</td><td>Percentual de Bônus</td><td>float64</td><td>Percentual de bônus - contínuo</td></tr>
+    <tr><td>shift</td><td>Turno</td><td>object</td><td>Manhã, Tarde, Noite</td></tr>
+    <tr><td>contract_type</td><td>Tipo de Contrato</td><td>object</td><td>Permanente, Temporário</td></tr>
+    <tr><td>cost_center</td><td>Centro de Custo</td><td>object</td><td>Código de centro de custo</td></tr>
+    <tr><td>compliance_status</td><td>Status de Conformidade</td><td>object</td><td>Status de conformidade</td></tr>
+    <tr><td>health_plan</td><td>Plano de Saúde</td><td>object</td><td>Premium, Básico, Padrão</td></tr>
+    <tr><td>email</td><td>Email</td><td>object</td><td>Formato padrão de e-mail</td></tr>
+    <tr><td>tenure_years</td><td>Tempo de Empresa (anos)</td><td>float64</td><td>Anos de empresa (float)</td></tr>
+    <tr><td>probation_completed</td><td>Período de Experiência Concluído</td><td>object</td><td>Sim, Não</td></tr>
+    <tr><td>manager_id</td><td>ID do Gestor</td><td>object</td><td>ID do gestor (Chave Gestor)</td></tr>
+    <tr><td>last_promotion_date</td><td>Data da Última Promoção</td><td>datetime64[ns]</td><td>Nulos indicam sem promoção registrada</td></tr>
+    <tr><td>last_training_date</td><td>Data do Último Treinamento</td><td>datetime64[ns]</td><td>Nulos indicam ausência de treinamentos recentes</td></tr>
+    <tr><td>-</td><td>Flag: Promoção após Demissão</td><td>object</td><td>Indica registros em que a data da última promoção é posterior à demissão</td></tr>
+    <tr><td>-</td><td>Flag: Demissão antes da Admissão</td><td>object</td><td>Identifica casos onde a data de demissão anterior à admissão</td></tr>
+    <tr><td>-</td><td>Flag: Treinamento antes da Admissão</td><td>object</td><td>Aponta registros em que a data do último treinamento anterior à admissão</td></tr>
+  </tbody>
+</table>
+<h>
+<h2 id='dcolab'>Tabela dColaborador</h2>
+<p>Contém informações cadastrais e demográficas dos colaboradores, com foco na identificação individual, dados pessoais e flags de integridade temporal.</p>
+
+<ul>
+  <li><strong>ID do Colaborador</strong>: Identificador único do colaborador (ex: EMP_00001)</li>
+  <li><strong>Localização</strong>: Cidade-base do colaborador</li>
+  <li><strong>Data de Admissão</strong>: Data de entrada na empresa</li>
+  <li><strong>Data de Demissão</strong>: Data de desligamento, se aplicável</li>
+  <li><strong>Está Ativo</strong>: Indica se o colaborador está ativo na empresa (Sim/Não)</li>
+  <li><strong>Gênero</strong>: Masculino, Feminino ou Outro</li>
+  <li><strong>Estado Civil</strong>: Estado civil do colaborador (Casado(a), Solteiro(a), etc.)</li>
+  <li><strong>Número de Dependentes</strong>: Quantidade de dependentes cadastrados</li>
+  <li><strong>Nível de Escolaridade</strong>: Grau de formação (Ex: Graduação, Mestrado)</li>
+  <li><strong>Email</strong>: Endereço de e-mail corporativo</li>
+  <li><strong>Flag: Promoção após Demissão</strong>: Sinaliza se houve promoção após o desligamento (verificação de inconsistência)</li>
+  <li><strong>Flag: Demissão antes de Admissão</strong>: Sinaliza se há data de demissão anterior à de admissão (erro temporal)</li>
+</ul>
+
+    
+</h>
+<h>
+<h2 id='dcolab'>Tabela dEstrutura</h2>
+<p>Reúne dados organizacionais relacionados à posição e vínculo do colaborador dentro da empresa.</p>
+
+<ul>
+  <li><strong>ID do Colaborador</strong>: Identificador único do colaborador</li>
+  <li><strong>Cargo</strong>: Função ou título exercido (ex: Analista de Dados, Gerente de RH)</li>
+  <li><strong>Departamento</strong>: Área ou setor de atuação (ex: TI, Marketing)</li>
+  <li><strong>Salário</strong>: Remuneração mensal em reais</li>
+  <li><strong>Data de Admissão</strong>: Data em que o colaborador ingressou na empresa</li>
+  <li><strong>Data de Demissão</strong>: Data de saída, caso o colaborador tenha sido desligado</li>
+  <li><strong>Turno</strong>: Período de trabalho (Manhã, Tarde, Noite)</li>
+  <li><strong>Centro de Custo</strong>: Código do centro de custo vinculado</li>
+  <li><strong>Tipo de Contrato</strong>: Tipo de vínculo empregatício (Permanente, Temporário)</li>
+  <li><strong>Plano de Saúde</strong>: Categoria do plano de saúde corporativo</li>
+  <li><strong>ID do Gestor</strong>: Identificador do gestor responsável pelo colaborador</li>
+</ul>
+
+    
+</h>
+<h>
+<h2 id='dcolab'>Tabela dDesempenho</h2>
+<p>Contém informações sobre remuneração, benefícios e desempenho dos colaboradores.</p>
+
+<ul>
+  <li><strong>ID do Colaborador</strong>: Identificador único do colaborador</li>
+  <li><strong>Cargo</strong>: Cargo atual do colaborador</li>
+  <li><strong>Salário</strong>: Remuneração mensal em reais</li>
+  <li><strong>Avaliação de Desempenho</strong>: Nota atribuída ao desempenho do colaborador (escala de 1 a 5)</li>
+  <li><strong>Percentual de Bônus</strong>: Percentual recebido a título de bônus</li>
+  <li><strong>Tempo de Empresa (anos)</strong>: Tempo total de permanência na empresa</li>
+  <li><strong>Data da Última Promoção</strong>: Última data registrada de promoção</li>
+  <li><strong>Data do Último Treinamento</strong>: Data mais recente de participação em treinamento</li>
+  <li><strong>Flag: Treinamento antes da Admissão</strong>: Indica se houve treinamento antes da data de admissão</li>
+</ul>
+</h>
+<h>
+<h2 id='dcolab'>Tabela fJornada_trabalho</h2>
+
+<p>Registra eventos temporais relacionados à jornada de trabalho dos colaboradores.</p>
+
+<ul>
+  <li><strong>ID do Colaborador</strong>: Identificador único do colaborador</li>
+  <li><strong>Dias de Falta</strong>: Quantidade total de faltas (justificadas e injustificadas)</li>
+  <li><strong>Dias de Licença Médica</strong>: Total de dias afastados por motivos de saúde</li>
+  <li><strong>Dias de Férias Usufruídos</strong>: Quantidade de dias de férias utilizados</li>
+  <li><strong>Banco de Horas</strong>: Saldo de horas acumuladas (pode ser positivo ou negativo)</li>
+  <li><strong>Horas Extras</strong>: Total de horas trabalhadas além da jornada padrão</li>
+  <li><strong>Quantidade de Atrasos</strong>: Número de registros de atraso no ponto</li>
+</ul>
+
+</h>
+
+<hr>
+
+<h3 id='execucao'>Como executar?</h3>
 
 <p>Siga os passos abaixo para rodar o projeto localmente:</p>
 
@@ -238,7 +378,7 @@ venv\Scripts\activate     # Windows</code></pre>
   </li>
 </ol>
 <hr>
-<h3 id='#tools'>Ferramentas utilizadas</h3>
+<h3 id='tools'>Ferramentas utilizadas</h3>
 <ul>
   <li><strong>Python</strong> (versão 3.10 ou superior)</li>
   <ul>
@@ -254,7 +394,7 @@ venv\Scripts\activate     # Windows</code></pre>
 
 <h3 id='analises'>Análises</h3>
 
-<h2 id='#insights'>Insights</h2>
+<h2 id='insights'>Insights</h2>
 <ul>
   <li>
     <strong>Distribuição por gênero e faixa salarial:</strong> 
@@ -288,7 +428,7 @@ venv\Scripts\activate     # Windows</code></pre>
   </li>
 </ul>
 
-<h2 id='#dash'>Dashboard</h2>
+<h2 id='dash'>Dashboard</h2>
 
 <p>Visualizações desenvolvidas no Power BI com base nos dados tratados. Abaixo, estão os principais painéis do dashboard:</p>
 
@@ -316,7 +456,7 @@ venv\Scripts\activate     # Windows</code></pre>
 dashboard_rh.pbix</a>
 </p>
 
-<h2 id='#doc'>Documentação</h2>
+<h2 id='doc'>Documentação</h2>
 
 <p>Para mais detalhes técnicos sobre a estrutura do projeto, métodos utilizados, glossário e dicionário de dados, consulte o arquivo abaixo:</p>
 
@@ -328,7 +468,7 @@ dashboard_rh.pbix</a>
   </li>
 </ul>
 <hr>
-<h2 id='#autor'>Autor</h2>
+<h2 id='autor'>Autor</h2>
 <p>Este projeto foi desenvolvido por <strong>Andrea Pela</strong>.</p>
 <ul>
   <li>
